@@ -3,8 +3,9 @@ repo: rabapp-upptime
 
 sites:
   - name: RABapp
-    url: https://rabapp.org
+    url: https://api.rabapp.org/health/ready
 
 status-website:
   baseUrl: /rabapp-upptime
   name: RABapp status
+  themeUrl: https://github.com/machado-lab/rabapp-upptime/tree/master/assets/style.css
