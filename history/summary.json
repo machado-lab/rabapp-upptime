@@ -1,8 +1,8 @@
 [
   {
     "name": "RABapp",
-    "url": "https://rabapp.org",
-    "icon": "https://icons.duckduckgo.com/ip3/rabapp.org.ico",
+    "url": "https://api.rabapp.org/health/ready",
+    "icon": "https://icons.duckduckgo.com/ip3/api.rabapp.org.ico",
     "slug": "ra-bapp",
     "status": "up",
     "uptime": "100.00%",
@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 322,
-    "timeDay": 267,
-    "timeWeek": 322,
-    "timeMonth": 322,
-    "timeYear": 322,
+    "time": 333,
+    "timeDay": 308,
+    "timeWeek": 333,
+    "timeMonth": 333,
+    "timeYear": 333,
     "dailyMinutesDown": {}
   }
 ]
