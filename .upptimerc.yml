@@ -6,5 +6,5 @@ sites:
     url: https://rabapp.org
 
 status-website:
-  baseUrl: /rabapp-api 
+  baseUrl: /rabapp-upptime
   name: RABapp status
