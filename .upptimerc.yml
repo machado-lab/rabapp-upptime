@@ -8,6 +8,4 @@ sites:
 status-website:
   baseUrl: /rabapp-upptime
   name: RABapp status
-  themeUrl: https://machado-lab.github.io/rabapp-upptime/assets/style.css
-
-  
+  themeUrl: https://machado-lab.github.io/rabapp-upptime/style.css
