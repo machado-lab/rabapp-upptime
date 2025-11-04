@@ -28,6 +28,11 @@ status-website:
   themeUrl: https://machado-lab.github.io/rabapp-upptime/style.css
   logoUrl: https://rabapp.org/favicon.ico
 
+
+i18n:
+  footer: ""
+
+
 assignees:
   - nuttysunday
   - debling
