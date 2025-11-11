@@ -22,7 +22,7 @@ status-website:
     This page provides status information on the services that are part of RABapp™.
     Check back here to view the current status of the services listed below.
     If you are experiencing an issue not listed here, please contact **machado-lab@ncsu.edu**.
-  baseUrl: /rabapp-upptime
+  cname: status.rabapp.org
   icon:  https://raw.githubusercontent.com/machado-lab/rabapp-upptime/master/assets/favicon.svg
   faviconSvg:  https://raw.githubusercontent.com/machado-lab/rabapp-upptime/master/assets/favicon.svg
   themeUrl: https://machado-lab.github.io/rabapp-upptime/style.css
