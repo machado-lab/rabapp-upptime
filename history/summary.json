@@ -22,35 +22,39 @@
     "url": "https://api.rabapp.org/health/ready",
     "icon": "https://rabapp.org/favicon.ico",
     "slug": "ra-bapp-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 315,
-    "timeDay": 343,
-    "timeWeek": 281,
-    "timeMonth": 295,
-    "timeYear": 315,
-    "dailyMinutesDown": {}
+    "time": 313,
+    "timeDay": 246,
+    "timeWeek": 264,
+    "timeMonth": 290,
+    "timeYear": 313,
+    "dailyMinutesDown": {
+      "2026-02-26": 0
+    }
   },
   {
     "name": "RABapp™ accounts",
     "url": "https://api.rabapp.org/auth/realms/rabapp/.well-known/openid-configuration",
     "icon": "https://rabapp.org/favicon.ico",
     "slug": "ra-bapp-accounts",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 41,
-    "timeDay": 26,
-    "timeWeek": 33,
-    "timeMonth": 43,
+    "timeDay": 24,
+    "timeWeek": 31,
+    "timeMonth": 42,
     "timeYear": 41,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-02-26": 0
+    }
   }
 ]
