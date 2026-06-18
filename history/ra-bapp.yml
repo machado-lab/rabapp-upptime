@@ -1,7 +1,7 @@
 url: https://rabapp.org
-status: up
+status: degraded
 code: 200
-responseTime: 340
-lastUpdated: 2026-06-16T23:36:20.772Z
+responseTime: 1261
+lastUpdated: 2026-06-18T13:58:27.535Z
 startTime: 2025-11-04T19:00:14.645Z
 generator: Upptime <https://github.com/upptime/upptime>
