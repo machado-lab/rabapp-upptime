@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 401,
-    "timeDay": 460,
-    "timeWeek": 406,
-    "timeMonth": 409,
-    "timeYear": 401,
+    "time": 400,
+    "timeDay": 451,
+    "timeWeek": 403,
+    "timeMonth": 408,
+    "timeYear": 400,
     "dailyMinutesDown": {}
   },
   {
@@ -23,22 +23,17 @@
     "icon": "https://rabapp.org/favicon.ico",
     "slug": "ra-bapp-api",
     "status": "up",
-    "uptime": "99.91%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.28%",
-    "uptimeYear": "99.91%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 291,
-    "timeDay": 324,
+    "timeDay": 323,
     "timeWeek": 283,
     "timeMonth": 280,
     "timeYear": 291,
-    "dailyMinutesDown": {
-      "2026-06-12": 57,
-      "2026-06-13": 58,
-      "2026-06-14": 85,
-      "2026-06-15": 116
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "RABapp™ accounts",
@@ -46,21 +41,16 @@
     "icon": "https://rabapp.org/favicon.ico",
     "slug": "ra-bapp-accounts",
     "status": "up",
-    "uptime": "99.91%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.28%",
-    "uptimeYear": "99.91%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 82,
-    "timeDay": 160,
-    "timeWeek": 162,
-    "timeMonth": 123,
+    "timeDay": 156,
+    "timeWeek": 161,
+    "timeMonth": 122,
     "timeYear": 82,
-    "dailyMinutesDown": {
-      "2026-06-12": 57,
-      "2026-06-13": 58,
-      "2026-06-14": 85,
-      "2026-06-15": 116
-    }
+    "dailyMinutesDown": {}
   }
 ]
