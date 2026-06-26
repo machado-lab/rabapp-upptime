@@ -1,19 +1,26 @@
 owner: machado-lab
 repo: rabapp-upptime
 
+retries: 3
+timeout: 15000
+
 sites:
   - name: RABapp™
     url: https://rabapp.org
     icon: https://rabapp.org/favicon.ico
-    maxResponseTime: 1000
+    maxResponseTime: 3000
   - name: RABapp™ API
     url: https://api.rabapp.org/health/ready
     icon: https://rabapp.org/favicon.ico
-    maxResponseTime: 1000
+    maxResponseTime: 3000
+    headers:
+      - "x-monitor-token: $MONITOR_TOKEN"
   - name: RABapp™ accounts
     url: https://api.rabapp.org/auth/realms/rabapp/.well-known/openid-configuration
     icon: https://rabapp.org/favicon.ico
-    maxResponseTime: 1000
+    maxResponseTime: 3000
+    headers:
+      - "x-monitor-token: $MONITOR_TOKEN"
 
 status-website:
   name: RABapp™
@@ -44,4 +51,4 @@ workflowSchedule:
   summary: "0 * * * *"
   updateTemplate: "0 0 * * *"
   updates: "0 * * * *"
-  uptime: "*/5 * * * *"
+  uptime: "*/10 * * * *"
