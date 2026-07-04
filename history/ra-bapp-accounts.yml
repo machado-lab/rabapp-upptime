@@ -1,7 +1,7 @@
 url: https://api.rabapp.org/auth/realms/rabapp/.well-known/openid-configuration
 status: up
 code: 200
-responseTime: 42
-lastUpdated: 2026-07-04T12:27:03.764Z
+responseTime: 235
+lastUpdated: 2026-07-04T13:32:04.718Z
 startTime: 2025-11-04T19:00:16.347Z
 generator: Upptime <https://github.com/upptime/upptime>
