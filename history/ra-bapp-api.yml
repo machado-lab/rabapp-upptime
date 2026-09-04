@@ -1,7 +1,7 @@
 url: https://api.rabapp.org/health/ready
-status: degraded
+status: down
 code: 504
-responseTime: 30240
-lastUpdated: 2026-09-04T17:10:23.086Z
+responseTime: 117
+lastUpdated: 2026-09-04T17:19:29.242Z
 startTime: 2025-11-04T19:00:15.514Z
 generator: Upptime <https://github.com/upptime/upptime>
