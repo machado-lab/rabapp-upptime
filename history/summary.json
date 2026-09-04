@@ -22,20 +22,20 @@
     "url": "https://api.rabapp.org/health/ready",
     "icon": "https://rabapp.org/favicon.ico",
     "slug": "ra-bapp-api",
-    "status": "down",
+    "status": "degraded",
     "uptime": "99.98%",
-    "uptimeDay": "99.08%",
-    "uptimeWeek": "99.23%",
-    "uptimeMonth": "99.82%",
+    "uptimeDay": "97.31%",
+    "uptimeWeek": "98.98%",
+    "uptimeMonth": "99.76%",
     "uptimeYear": "99.98%",
-    "time": 361,
-    "timeDay": 2748,
-    "timeWeek": 697,
-    "timeMonth": 586,
-    "timeYear": 361,
+    "time": 395,
+    "timeDay": 3770,
+    "timeWeek": 873,
+    "timeMonth": 711,
+    "timeYear": 395,
     "dailyMinutesDown": {
       "2026-08-31": 65,
-      "2026-09-04": 13
+      "2026-09-04": 39
     }
   },
   {
@@ -43,19 +43,19 @@
     "url": "https://api.rabapp.org/auth/realms/rabapp/.well-known/openid-configuration",
     "icon": "https://rabapp.org/favicon.ico",
     "slug": "ra-bapp-accounts",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.19%",
-    "uptimeWeek": "99.88%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "100.00%",
-    "time": 145,
-    "timeDay": 1320,
-    "timeWeek": 299,
-    "timeMonth": 251,
-    "timeYear": 145,
+    "status": "degraded",
+    "uptime": "99.99%",
+    "uptimeDay": "97.43%",
+    "uptimeWeek": "99.63%",
+    "uptimeMonth": "99.92%",
+    "uptimeYear": "99.99%",
+    "time": 179,
+    "timeDay": 2427,
+    "timeWeek": 479,
+    "timeMonth": 379,
+    "timeYear": 179,
     "dailyMinutesDown": {
-      "2026-09-04": 12
+      "2026-09-04": 37
     }
   }
 ]
