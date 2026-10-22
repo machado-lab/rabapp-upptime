@@ -1,24 +1,79 @@
 owner: machado-lab
 repo: rabapp-upptime
 
-retries: 3
-timeout: 15000
+skipDeleteIssues: true
 
 sites:
-  - name: RABapp™
+  # Explicit slugs preserve existing history when monitor names change.
+  - name: RABapp™ marketing website
+    slug: ra-bapp
     url: https://rabapp.org
     icon: https://rabapp.org/favicon.ico
+    expectedStatusCodes: [200]
+    maxRedirects: 0
+    connectTimeout: 5
+    requestTimeout: 15
+    maxRetries: 2
     maxResponseTime: 3000
-  - name: RABapp™ API
+    __dangerous__body_down_if_text_missing: 'https://app.rabapp.org'
+  - name: RABapp™ production application
+    slug: ra-bapp-application
+    url: https://app.rabapp.org
+    icon: https://rabapp.org/favicon.ico
+    expectedStatusCodes: [200]
+    maxRedirects: 0
+    connectTimeout: 5
+    requestTimeout: 15
+    maxRetries: 2
+    maxResponseTime: 3000
+    __dangerous__body_down_if_text_missing: '<app-root'
+  - name: RABapp™ API public readiness
+    slug: ra-bapp-api-public
     url: https://api.rabapp.org/health/ready
     icon: https://rabapp.org/favicon.ico
+    expectedStatusCodes: [200]
+    maxRedirects: 0
+    connectTimeout: 5
+    requestTimeout: 15
+    maxRetries: 2
     maxResponseTime: 3000
-    headers:
-      - "x-monitor-token: $MONITOR_TOKEN"
-  - name: RABapp™ accounts
+    __dangerous__body_down_if_regex_missing: '\r?\n\r?\nOK\s*$'
+  - name: RABapp™ accounts public discovery
+    slug: ra-bapp-accounts-public
     url: https://api.rabapp.org/auth/realms/rabapp/.well-known/openid-configuration
     icon: https://rabapp.org/favicon.ico
+    expectedStatusCodes: [200]
+    maxRedirects: 0
+    connectTimeout: 5
+    requestTimeout: 15
+    maxRetries: 2
     maxResponseTime: 3000
+    __dangerous__body_down_if_regex_missing: '"issuer"\s*:\s*"https://api\.rabapp\.org/auth/realms/rabapp"'
+  # Token-bearing diagnostics help isolate WAF failures. They also affect overall status.
+  - name: RABapp™ API readiness (WAF bypass diagnostic)
+    slug: ra-bapp-api
+    url: https://api.rabapp.org/health/ready
+    icon: https://rabapp.org/favicon.ico
+    expectedStatusCodes: [200]
+    maxRedirects: 0
+    connectTimeout: 5
+    requestTimeout: 15
+    maxRetries: 2
+    maxResponseTime: 3000
+    __dangerous__body_down_if_regex_missing: '\r?\n\r?\nOK\s*$'
+    headers:
+      - "x-monitor-token: $MONITOR_TOKEN"
+  - name: RABapp™ accounts discovery (WAF bypass diagnostic)
+    slug: ra-bapp-accounts
+    url: https://api.rabapp.org/auth/realms/rabapp/.well-known/openid-configuration
+    icon: https://rabapp.org/favicon.ico
+    expectedStatusCodes: [200]
+    maxRedirects: 0
+    connectTimeout: 5
+    requestTimeout: 15
+    maxRetries: 2
+    maxResponseTime: 3000
+    __dangerous__body_down_if_regex_missing: '"issuer"\s*:\s*"https://api\.rabapp\.org/auth/realms/rabapp"'
     headers:
       - "x-monitor-token: $MONITOR_TOKEN"
 
@@ -26,8 +81,9 @@ status-website:
   name: RABapp™
   introTitle: RABapp™ status page
   introMessage: |
-    This page provides status information on the services that are part of RABapp™.
-    Check back here to view the current status of the services listed below.
+    This page shows results from scheduled checks of RABapp™ services.
+    Refresh this page to load the latest available results.
+    These checks may not detect problems with signing in or individual application features.
     If you are experiencing an issue not listed here, please contact **machado-lab@ncsu.edu**.
   cname: status.rabapp.org
   icon:  https://raw.githubusercontent.com/machado-lab/rabapp-upptime/master/assets/favicon.svg
@@ -44,11 +100,12 @@ assignees:
   - nuttysunday
   - debling
 
+# Run Setup CI after publication to regenerate workflows with these schedules.
 workflowSchedule:
-  graphs: "0 * * * *"
-  responseTime: "0 * * * *"
-  staticSite: "0 * * * *"
-  summary: "0 * * * *"
-  updateTemplate: "0 0 * * *"
-  updates: "0 * * * *"
-  uptime: "*/10 * * * *"
+  graphs: "19 * * * *"
+  responseTime: "13,28,43,58 * * * *"
+  staticSite: "23 * * * *"
+  summary: "11 * * * *"
+  updateTemplate: "41 3 * * *"
+  updates: "46 * * * *"
+  uptime: "2-59/5 * * * *"
